@@ -1,3 +1,5 @@
+Note: this repository is now out of date and there is a newer version. Please use https://github.com/brownhci/WebGazer/tree/master/www/search instead
+
 # [SearchGazer](https://webgazer.cs.brown.edu/search)
 
 SearchGazer is an eye tracking library that uses common webcams to infer the eye-gaze locations of visitors on a search engine in real time. In addition, SearchGazer predicts in real-time which area of interest within a search engine result page is being examined by a visitor at any moment. SearchGazer extends WebGazer and its eye tracking model that self-calibrates by watching web visitors interact with the web page and trains a mapping between the features of the eye and positions on the screen. SearchGazer is written entirely in JavaScript and with only a few lines of code can be integrated in any search engine that wishes to conduct remote eye tracking studies. SearchGazer runs entirely in the client browser, therefore no video data needs to be sent to a server. SearchGazer runs only if the user consents in giving access to their webcam.
